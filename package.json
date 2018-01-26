@@ -4,7 +4,8 @@
   "description": "just for curiosity I would like to write a simple Protractor test",
   "main": "index.js",
   "scripts": {
-    "test": "protractor conf.js"
+    "webdriver-update": "webdriver-manager update",
+    "test": "(webdriver-manager start &) && while ! nc -z 127.0.0.1 4444; do sleep 1; done && protractor test/protractor-conf.js && fuser -k -n tcp 4444"
   },
   "repository": {
     "type": "git",
@@ -18,5 +19,8 @@
   "bugs": {
     "url": "https://github.com/kedziorm/mySampleProtractorTest/issues"
   },
-  "homepage": "https://github.com/kedziorm/mySampleProtractorTest#readme"
+  "homepage": "https://github.com/kedziorm/mySampleProtractorTest#readme",
+  "devDependencies": {
+    "protractor": "^5.3.0"
+  }
 }
