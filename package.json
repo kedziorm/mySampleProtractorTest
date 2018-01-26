@@ -1,0 +1,22 @@
+{
+  "name": "protractor-test",
+  "version": "1.0.0",
+  "description": "just for curiosity I would like to write a simple Protractor test",
+  "main": "index.js",
+  "scripts": {
+    "test": "protractor conf.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/kedziorm/mySampleProtractorTest.git"
+  },
+  "keywords": [
+    "protractor"
+  ],
+  "author": "Mateusz Kędzior",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/kedziorm/mySampleProtractorTest/issues"
+  },
+  "homepage": "https://github.com/kedziorm/mySampleProtractorTest#readme"
+}
