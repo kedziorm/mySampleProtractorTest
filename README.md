@@ -9,4 +9,6 @@ To run test just type:
 In case of information that Selenium folder doesn't exists, run the command:
 `npm run webdriver-update`
 
-Tested on Ubuntu 17.10 64-bit.
+Tested on Lubuntu 17.10 64-bit:
+
+![Running tests under Lubuntu 17.10](RunningTests.gif)
